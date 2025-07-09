@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &412354158325694902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8822299012823500946}
+  - component: {fileID: 7722041497642838582}
+  - component: {fileID: 664878288367109134}
+  m_Layer: 0
+  m_Name: PlayerUpSlash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8822299012823500946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412354158325694902}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -60, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7722041497642838582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412354158325694902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d8a9a05214ea384a96c452eb51a9764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Skillcolor>k__BackingField: {r: 1, g: 1, b: 1, a: 1}
+  thisSkillEvent: 00000000010000000800000009000000
+  entityEventHolder: {fileID: 664878288367109134}
+  isparrenteffect: 1
+  isrotateplus180: 1
+  isnotCombo: 0
+  isfirstCooldown: 1
+  entryskilmovetypes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  middleskilmovetypes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  endskilmovetypes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  skillGardLevel: 0
+  useHealth: 0
+  useStamina: 60
+  useMana: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  HitBox: {fileID: 4741241341698460651, guid: bba59f5281d1e3b43a97ef85593353ff, type: 3}
+  skillDamage:
+  - 3.5
+  skillgardPenetration: 01000000
+  skillInterVal:
+  - 2
+  skillstunTime:
+  - 1
+  skillEntryDelay:
+  - 0.1
+  skillEndDelay:
+  - 0.25
+  skillLifeTime:
+  - 0.2
+  effect:
+  - {fileID: 317600653435561466, guid: 73cf4bb6c24699148b5d9e7e91aa79c9, type: 3}
+  hiteffect:
+  - {fileID: 2725582050147884092, guid: 7eec3639e220a8641afd9f0629fa07b6, type: 3}
+  effectTransformList:
+  - index: 0
+    data:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 180, y: 180, z: -45}
+      scale: {x: 1, y: 1, z: 1}
+  soundEffect:
+  - {fileID: 8300000, guid: a9d10d8607b074641b4d6c3b6f18f4b6, type: 3}
+  - {fileID: 8300000, guid: 975d299aa2627334e87d6f1d4b6bffff, type: 3}
+  - {fileID: 8300000, guid: 0c5df81aa7ecb0c4d8d3353ffa49073d, type: 3}
+  - {fileID: 8300000, guid: a9d10d8607b074641b4d6c3b6f18f4b6, type: 3}
+  skillAnimation:
+  - {fileID: 7400000, guid: d94e2de68af4488409fb5db5d38629cc, type: 2}
+  skillAnimSpeed:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  skillHitBoxSpawnPos:
+  - {x: 0.75, y: 0.125}
+  skillHitBoxSpawnSize:
+  - {x: 2.75, y: 2.75}
+  finalSkillCoolDown: 4.5
+  attackType: 1
+  attackElement: 0
+  maxSkillUseCount: 1
+  skillComboDelay: 0.5
+  skillKnockBack:
+  - {x: 8, y: 30}
+  skillActiveForceList:
+  - index: 0
+    forceData:
+      Entrypos: {x: 5, y: 4, z: 0}
+      Middlepos: {x: 5, y: 18, z: 0}
+      Endpos: {x: 5, y: 7, z: 0}
+  skillEventList: []
+  <SkillCoolDown>k__BackingField: 0
+  <SkillDissabled>k__BackingField: 0
+  <SkillUseCount>k__BackingField: 0
+  skillComboTimer: 0
+  originpos: {x: 0, y: 0}
+  downskillanimation: {fileID: 0}
+--- !u!114 &664878288367109134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412354158325694902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c996a57460674e4eaaaf9f2d8c5f1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pendingEvents: []

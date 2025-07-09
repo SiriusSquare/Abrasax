@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &412354158325694902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8822299012823500946}
+  - component: {fileID: 7722041497642838582}
+  - component: {fileID: 664878288367109134}
+  m_Layer: 0
+  m_Name: Equinoxmultislash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8822299012823500946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412354158325694902}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7722041497642838582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412354158325694902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d8a9a05214ea384a96c452eb51a9764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Skillcolor>k__BackingField: {r: 0, g: 0, b: 0, a: 0}
+  thisSkillEvent: 00000000010000001200000013000000
+  entityEventHolder: {fileID: 664878288367109134}
+  isparrenteffect: 0
+  isrotateplus180: 1
+  isnotCombo: 0
+  isfirstCooldown: 0
+  entryskilmovetypes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  middleskilmovetypes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  endskilmovetypes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  skillGardLevel: 5
+  useHealth: 0
+  useStamina: 140
+  useMana: 50
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  HitBox: {fileID: 4741241341698460651, guid: bba59f5281d1e3b43a97ef85593353ff, type: 3}
+  skillDamage:
+  - 1
+  skillgardPenetration: 14000000
+  skillInterVal:
+  - 0.04
+  skillstunTime:
+  - 2
+  skillEntryDelay:
+  - 0.5
+  skillEndDelay:
+  - 0.5
+  skillLifeTime:
+  - 2
+  effect:
+  - {fileID: 6884940400787624198, guid: 4df99424baa1abd4bbce7f7c55d981fd, type: 3}
+  hiteffect:
+  - {fileID: 2725582050147884092, guid: 7eec3639e220a8641afd9f0629fa07b6, type: 3}
+  effectTransformList:
+  - index: 0
+    data:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 180, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  soundEffect:
+  - {fileID: 8300000, guid: 0c5df81aa7ecb0c4d8d3353ffa49073d, type: 3}
+  skillAnimation:
+  - {fileID: 7400000, guid: b8135d878e5461244b6eac5b4e21cc0c, type: 2}
+  skillAnimSpeed:
+  - 0.2
+  skillHitBoxSpawnPos:
+  - {x: 0.5, y: 0}
+  skillHitBoxSpawnSize:
+  - {x: 5, y: 5}
+  finalSkillCoolDown: 35
+  attackType: 1
+  attackElement: 0
+  maxSkillUseCount: 1
+  skillComboDelay: 0.2
+  skillKnockBack:
+  - {x: 2, y: 5}
+  skillActiveForceList:
+  - index: 0
+    forceData:
+      Entrypos: {x: 0, y: 0, z: 0}
+      Middlepos: {x: 0, y: 0, z: 0}
+      Endpos: {x: 0, y: 0, z: 0}
+  skillEventList: []
+  <SkillCoolDown>k__BackingField: 0
+  <SkillDissabled>k__BackingField: 0
+  <SkillUseCount>k__BackingField: 0
+  skillComboTimer: 0
+  originpos: {x: 0, y: 0}
+  downskillanimation: {fileID: 0}
+--- !u!114 &664878288367109134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412354158325694902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c996a57460674e4eaaaf9f2d8c5f1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pendingEvents: []

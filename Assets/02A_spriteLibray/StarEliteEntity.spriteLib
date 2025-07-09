@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: VisualSprite
+    m_Hash: 929334400
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: basic
+      m_Hash: 276395347
+      m_Sprite: {fileID: 21300000, guid: e9fa87cd74da29b44b5c81713da3eb17, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 4402175761119127919, guid: 34b816d33fcae5f45bcbdf13ee14a9c8, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 1
+  - m_Name: Eye
+    m_Hash: 171295057
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: "\uAE30\uBCF8 \uB208"
+      m_Hash: 250746913
+      m_Sprite: {fileID: 1658239919362822718, guid: 2e22da709fd1f1c4886ea9b949bb05fd, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -8643982878846078853, guid: 7a9af72536fcc564ba852f7a9348a2d7, type: 3}
+    - m_Name: "\uCC21\uADF8\uB9B0 \uB208"
+      m_Hash: 1023754374
+      m_Sprite: {fileID: 3461096220619105011, guid: 61902b9846d8af84db82957bbb32ad99, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 677245975117526879, guid: 576d32b3e52c85d4fbc4953706d73cd4, type: 3}
+    - m_Name: "\uB180\uB780 \uB208"
+      m_Hash: 678289037
+      m_Sprite: {fileID: -4510511625986547268, guid: 41a84a09c06a51b46813d5dc8bffbcdb, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -4510511625986547268, guid: 41a84a09c06a51b46813d5dc8bffbcdb, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 2
+  - m_Name: Item
+    m_Hash: 1059686944
+    m_CategoryList: []
+    m_OverrideEntries: []
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
+  m_PrimaryLibraryGUID: c6d606c648ed66b45835809247d9e942
+  m_ModificationHash: 638862202215961724
+  m_Version: 1
